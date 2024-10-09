@@ -1,6 +1,6 @@
 # Greedy-Global-LLL-anon
 
-This repository contains implementations accompanying the paper [5] titled "A Greedy Global Framework for Lattice Reduction Using Deep Insertions". The algorithms implemented are: Pot-DeepLLL [2], SS-DeepLLL [3], and their Greedy-Global variants proposed in [5]. The Pot-DeepLLL, SS-DeepLLL, Pot-GGLLL and SS-GGLLL algorithms use the GSO update techniques from [4], that make them more efficient than BKZ-8! SS-GGLLL gives shorter vectors than BKZ-12 for dimensions 100 and after.
+This repository contains implementations accompanying the paper [5] titled "A Greedy Global Framework for Lattice Reduction Using Deep Insertions". The algorithms implemented are: Pot-DeepLLL [2], SS-DeepLLL [3], and their Greedy-Global variants proposed in [5]. The Pot-DeepLLL, SS-DeepLLL, Pot-GGLLL and SS-GGLLL algorithms use the GSO update techniques from [4], that make them more efficient than BKZ-8. SS-GGLLL gives shorter vectors than BKZ-12 for dimensions 100 and after.
 
 The descriptions of the files that can be found in this repository are listed below.
 
