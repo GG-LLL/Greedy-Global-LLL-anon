@@ -4,27 +4,26 @@ This repository contains implementations accompanying the paper [5] titled "A Gr
 
 The descriptions of the files that can be found in this repository are listed below.
 
-common.cpp   common.h   standalone_reduction.cpp   preprocessed_reduction.cpp For a given input basis, the functions contained in common.cpp may be used to run various lattice basis reduction algorithms. The menu-driven execution of individual algorithms is in standalone_reduction.cpp and preprocessed_reduction.cpp for multi-precision and standard datatype implementations respectively.
+- common.cpp   common.h   standalone_reduction.cpp   preprocessed_reduction.cpp For a given input basis, the functions contained in common.cpp may be used to run various lattice basis reduction algorithms. The menu-driven execution of individual algorithms is in standalone_reduction.cpp and preprocessed_reduction.cpp for multi-precision and standard datatype implementations respectively.
+  - LLL (multi-precision implementation with overestimated precision)
+  - Pot-DeepLLL (standard datatype implementation and multi-precision implementation with overestimated precision)
+  - SS-DeepLLL (standard datatype implementation and multi-precision implementation with overestimated precision)
+  - Pot-GGLLL (standard datatype implementation and multi-precision implementation with overestimated precision)
+  - SS-GGLLL (standard datatype implementation and multi-precision implementation with overestimated precision)
 
-- LLL (multi-precision implementation with overestimated precision)
-- Pot-DeepLLL (standard datatype implementation and multi-precision implementation with overestimated precision)
-- SS-DeepLLL (standard datatype implementation and multi-precision implementation with overestimated precision)
-- Pot-GGLLL (standard datatype implementation and multi-precision implementation with overestimated precision)
-- SS-GGLLL (standard datatype implementation and multi-precision implementation with overestimated precision)
-
-generate_SVP_bases.cpp
+- generate_SVP_bases.cpp
 Can be used to generate SVP Challenge style bases.
 
-collate.cpp
+- collate.cpp
 Can be used to collate the results from multiple output files in one place.
 
-SVP_Bases   SVP_Bases_FPLLL   SVP_Bases_LLLReduced
+- SVP_Bases   SVP_Bases_FPLLL   SVP_Bases_LLLReduced
 The input bases are contained in the zip file SVP_Bases. The same bases are in the zip file SVP_Bases_FPLLL, formatted for the use of FPLLL functions. The zip file SVP_Bases_LLLReduced contains the SVP_Bases in the other files, but 0.99-LLL reduced.
 
-SVP_Outputs_Standalone   SVP_Outputs_Preprocessed
+- SVP_Outputs_Standalone   SVP_Outputs_Preprocessed
 The outputs from our programs are contained in the zip files SVP_Outputs_Standalone and SVP_Outputs_Preprocessed for multi-precision and standard implementations respectively.
 
-Standalone_Averages   Preprocessed_Averages
+- Standalone_Averages   Preprocessed_Averages
 This folder contains the summaries reported in our paper.
 
 References:
