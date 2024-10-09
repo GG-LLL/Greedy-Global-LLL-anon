@@ -6,11 +6,12 @@ The descriptions of the files that can be found in this repository are listed be
 
 common.cpp   common.h   standalone_reduction.cpp   preprocessed_reduction.cpp For a given input basis, the functions contained in common.cpp may be used to run various lattice basis reduction algorithms. The menu-driven execution of individual algorithms is in standalone_reduction.cpp and preprocessed_reduction.cpp for multi-precision and standard datatype implementations respectively.
 
-LLL (multi-precision implementation with overestimated precision)
-Pot-DeepLLL (standard datatype implementation and multi-precision implementation with overestimated precision)
-SS-DeepLLL (standard datatype implementation and multi-precision implementation with overestimated precision)
-Pot-GGLLL (standard datatype implementation and multi-precision implementation with overestimated precision)
-SS-GGLLL (standard datatype implementation and multi-precision implementation with overestimated precision)
+- LLL (multi-precision implementation with overestimated precision)
+- Pot-DeepLLL (standard datatype implementation and multi-precision implementation with overestimated precision)
+- SS-DeepLLL (standard datatype implementation and multi-precision implementation with overestimated precision)
+- Pot-GGLLL (standard datatype implementation and multi-precision implementation with overestimated precision)
+- SS-GGLLL (standard datatype implementation and multi-precision implementation with overestimated precision)
+
 generate_SVP_bases.cpp
 Can be used to generate SVP Challenge style bases.
 
